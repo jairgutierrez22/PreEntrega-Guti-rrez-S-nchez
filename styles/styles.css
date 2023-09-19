@@ -1,0 +1,51 @@
+*{
+    background-color: rgb(170, 6, 6);
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    font-size: 28px;
+}
+
+header nav li{
+    list-style: none;
+}
+
+.fotos_destacadas{
+    width: 700px;
+}
+
+#imagen_destacada_uno{
+    width: 300px;
+}
+
+#imagen_destacada_dos{
+    width: 300px;
+}
+
+#carousel_uno{
+    width: 300px;
+}
+
+#carousel_dos{
+    width: 300px;
+}
+
+#carousel_tres{
+    width: 300px;
+}
+
+.logo{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+#imagen_logo{
+    width: 100px;
+    height: 80px;
+}
+
+footer{
+    align-items: end;
+    background-color: black;
+}
