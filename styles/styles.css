@@ -2,8 +2,6 @@
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
-    color: white;
-    font-size: 28px;
     overflow-x: hidden;
 }
 
@@ -81,7 +79,7 @@ main{
 .ropa_destacada_uno{
     display: flex;
     flex-direction: row;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     height: 300px;
     width: 750px;
     margin-bottom: 20px;
@@ -92,12 +90,13 @@ main{
     justify-content: center;
     margin-top: 120px;
     font-size: 18px;
+    color: black;
 }
 
 .ropa_destacada_dos{
     display: flex;
     flex-direction: row;
-    background-color: rgb(85, 81, 81);
+    background-color: rgb(255, 255, 255);
     height: 300px;
     width: 750px;
     margin-bottom: 20px;
@@ -118,6 +117,7 @@ main{
     justify-content: center;
     margin-top: 120px;
     font-size: 18px;
+    color: black;
 }
 
 .cards_dest{
@@ -151,12 +151,113 @@ main{
     height: 80px;
 }
 
+
+.fotos_ropa_productos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.ropa_prod_uno{
+    width: 380px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.ropa_prod_dos{
+    width: 380px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-right: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.ropa_prod_tres{
+    width: 380px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-right: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.ropa_prod_cuatro{
+    width: 380px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#imagen_prod_uno{
+    width: 350px;
+}
+
+#imagen_prod_dos{
+    width: 350px;
+}
+
+#imagen_prod_tres{
+    width: 350px;
+}
+
+#imagen_prod_cuatro{
+    width: 350px;
+}
+
+.texto_prod{
+    text-align: center;
+    color: black !important;
+    font-size: 18px;
+}
+
+.navegacion_ropa{
+    margin-top: 170px !important;
+}
+
+.list_ropa{
+    margin-top: 10px;
+}
+
+ul ol li a{
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    margin-top: 150px;
+    margin-top: 10px;
+}
+
+ul ol li a:hover{
+    color: rgb(230, 220, 220);
+}
+
+
 footer{
-    align-items: end;
     background-color: black;
     bottom: 0;
     width: 100%;
-    position: absolute;
+    position: fixed;
     text-align: center;
     font-size: 15px;
 }
