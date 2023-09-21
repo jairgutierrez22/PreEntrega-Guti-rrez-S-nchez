@@ -1,26 +1,132 @@
 *{
-    background-color: rgb(170, 6, 6);
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
     color: white;
     font-size: 28px;
+    overflow-x: hidden;
 }
 
-header nav li{
-    list-style: none;
+body{
+    background-color: rgb(243, 43, 43) !important;
+}
+
+header{
+    width: 100%;
+}
+/*
+header nav ul{
+    list-style: none !important;
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px !important;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    color: rgb(0, 0, 0) !important;
+    text-decoration: none !important;
+    width: 100px;
+    border-radius: 5px;
+}
+
+a:hover{
+    color: rgb(233, 227, 227) !important; 
+    background-color: rgba(236, 229, 229, 0.267);
+}
+
+nav{
+    background-color: black;
+}
+
+.navegacion{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px !important;
+
+}
+*/
+
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-collapse{
+    margin-left: 600px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 100%;
 }
 
 .fotos_destacadas{
-    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+}
+
+.ropa_destacada_uno{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    height: 300px;
+    width: 750px;
+    margin-bottom: 20px;
+}
+
+.texto_destacado_uno{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    font-size: 18px;
+}
+
+.ropa_destacada_dos{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(85, 81, 81);
+    height: 300px;
+    width: 750px;
+    margin-bottom: 20px;
 }
 
 #imagen_destacada_uno{
-    width: 300px;
+    width: 600px !important;
+    height: 300px !important;
 }
 
 #imagen_destacada_dos{
-    width: 300px;
+    width: 600px !important;
+    height: 300px !important;
+}
+
+.texto_destacado_dos{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    font-size: 18px;
+}
+
+.cards_dest{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 100px;
+    margin-top: 80px;
+    margin-left: 60px;
 }
 
 #carousel_uno{
@@ -35,9 +141,9 @@ header nav li{
     width: 300px;
 }
 
-.logo{
-    margin-left: 50px;
-    margin-top: 10px;
+.imagenes{
+    width: 900px;
+    margin-top: 90px;
 }
 
 #imagen_logo{
@@ -48,4 +154,9 @@ header nav li{
 footer{
     align-items: end;
     background-color: black;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    font-size: 15px;
 }

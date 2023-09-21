@@ -10,36 +10,94 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo.jpeg" alt="" width="60" height="44" class="d-inline-block align-text-top">
+                    Tienda Sports Fire House
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pagDos.html">Ropa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pagCuatro.html">Accesorios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pagTres.html">Ver Oferta</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pagTres.html">Promos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pagCinco.html">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+          </nav>
+        <!--<nav class="navegacion">
             <div class="logo"> 
                 <a href="index.html"><img src="img/logo.jpeg" id="imagen_logo" alt="logo sitio web"></a>
+                <h4>Tienda Sports <br> Fire House</h4>
             </div>
-            <li ><a href="index.html"><h1>Tienda Sports Fire House</h1></a></li>
-            <li><a href="pagDos.html">Ropa</a></li>
-            <li><a href="pagCuatro.html">Accesorios</a></li>
-            <li><a href="pagTres.html">Ver Oferta</a></li>
-            <li><a href="pagTres.html">Promos</a></li>
-            <li><a href="pagCinco.html">Login</a></li>
-        </nav>
+            <ul class="navbarTienda">   
+                <li><a href="pagDos.html">Ropa</a></li>
+                <li><a href="pagCuatro.html">Accesorios</a></li>
+                <li><a href="pagTres.html">Ver Oferta</a></li>
+                <li><a href="pagTres.html">Promos</a></li>
+                <li><a href="pagCinco.html">Login</a></li>
+            </ul>
+        </nav>-->
     </header>
     <main>
         <div class="fotos_destacadas">    
-            <div class="ropa_destacada_uno">
-                <img src="img/foto dos.jpg" id="imagen_destacada_uno">
-                <p class="texto_destacado_uno">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, suscipit! Neque, repellendus fugiat voluptas aspernatur pariatur doloribus vitae mollitia sunt, qui, aut autem iste! Corporis eveniet officia quibusdam iusto harum expedita et officiis vitae quasi amet eius iure iste minima hic, tempore possimus mollitia! Officia animi sequi culpa iusto totam.</p>
+            <div class="cards_dest">
+                <div class="ropa_destacada_uno">
+                    <img src="img/foto dos.jpg" id="imagen_destacada_uno">
+                    <p class="texto_destacado_uno">En Tienda Sports Fire House encuentras toda la ropa deportiva para que puedas entrenar cómodo.</p>
+                </div>
+                <div class="ropa_destacada_dos">
+                    <img src="img/foto 3.jpg" id="imagen_destacada_dos">
+                    <p class="texto_destacado_dos">En Tienda Sports Fire House encuentras toda la ropa deportiva para que puedas entrenar cómodo.</p>
+                </div>
             </div>
-            <div class="ropa_destacada_dos">
-                <img src="img/foto 3.jpg" id="imagen_destacada_dos">
-                <p class="texto_destacado_dos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, fugiat. Maiores numquam quod perspiciatis architecto, ratione quam labore error, odio, dignissimos pariatur nostrum sapiente voluptatibus sint eum delectus at illum! Quaerat dolores optio officiis neque ex dolorum cum laudantium blanditiis nostrum saepe! Eos distinctio asperiores voluptates veniam, rerum officiis nesciunt?</p>
-            </div>
+            <article class="imagenes">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/foto cuatro.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/foto cinco.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/foto.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                  </div>
+                <!--<div class="carousel">
+                    <img src="img/foto cuatro.jpg" id="carousel_uno">
+                    <img src="img/foto cinco.jpg" id="carousel_dos">
+                    <img src="img/foto.jpg" id="carousel_tres">
+                </div>-->
+            </article>
         </div>
-        <article class="imagenes">
-            <div class="carousel">
-                <img src="img/foto cuatro.jpg" id="carousel_uno">
-                <img src="img/foto cinco.jpg" id="carousel_dos">
-                <img src="img/foto.jpg" id="carousel_tres">
-            </div>
-        </article>
     </main>
     <footer>Sitio web creado por Jair Gutiérrez Sánchez. Bogotá, Colombia.</footer>
 
