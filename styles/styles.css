@@ -69,12 +69,12 @@ main{
 }
 
 #imagen_destacada_uno{
-    width: 350px !important;
+    width: 100% !important;
     height: 300px !important;
 }
 
 #imagen_destacada_dos{
-    width: 350px !important;
+    width: 100% !important;
     height: 300px !important;
 }
 
@@ -233,3 +233,19 @@ footer{
     color: white;
 }
 
+
+
+
+@media screen and (max-width: 800px) and (min-width: 0px) {
+
+  .cards_dest{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .ropa_destacada_uno{
+    margin-right: 10px;
+  }
+
+
+}
