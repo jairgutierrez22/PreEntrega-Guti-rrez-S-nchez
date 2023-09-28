@@ -10,63 +10,67 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+       <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="./index.html ">
                     <img src="img/logo.jpeg" alt="" width="60" height="44" class="d-inline-block align-text-top">
                     Tienda Sports Fire House
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <div class="collapse navbar-collapse"  id="navbarNavAltMarkup">
+                    <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" href="./ropa-accesorios/ropa.html">Ropa</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="pagDos.html">Ropa</a>
+                            <a class="nav-link" href="./ropa-accesorios/accesorios.html">Accesorios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="pagCuatro.html">Accesorios</a>
+                            <a class="nav-link" href="./otros/ofertas.html">Ofertas</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="pagTres.html">Ver Oferta</a>
+                            <a class="nav-link" href="./otros/ofertas.html">Promos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="pagTres.html">Promos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="pagCinco.html">Login</a>
+                            <a class="nav-link" href="./otros/login.html">Login</a>
                         </li>
                     </ul>
                 </div>
             </div>
           </nav>
-        <!--<nav class="navegacion">
-            <div class="logo"> 
-                <a href="index.html"><img src="img/logo.jpeg" id="imagen_logo" alt="logo sitio web"></a>
-                <h4>Tienda Sports <br> Fire House</h4>
-            </div>
-            <ul class="navbarTienda">   
-                <li><a href="pagDos.html">Ropa</a></li>
-                <li><a href="pagCuatro.html">Accesorios</a></li>
-                <li><a href="pagTres.html">Ver Oferta</a></li>
-                <li><a href="pagTres.html">Promos</a></li>
-                <li><a href="pagCinco.html">Login</a></li>
-            </ul>
-        </nav>-->
     </header>
     <main>
         <div class="fotos_destacadas">    
             <div class="cards_dest">
                 <div class="ropa_destacada_uno">
-                    <img src="img/foto dos.jpg" id="imagen_destacada_uno">
-                    <p class="texto_destacado_uno">En Tienda Sports Fire House encuentras toda la ropa deportiva para que puedas entrenar cómodo.</p>
+                    <div class="card mb-3 cards_fotos">
+                        <div class="row g-0">
+                            <div class="col-md-5">
+                                <img src="./img/foto dos.jpg" id="imagen_destacada_uno" alt="foto marca tienda">
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card-body">
+                                    <p class="card-text">En Tienda Sports Fire House encuentras toda la ropa deportiva para que puedas entrenar cómodo.</p>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
                 </div>
                 <div class="ropa_destacada_dos">
-                    <img src="img/foto 3.jpg" id="imagen_destacada_dos">
-                    <p class="texto_destacado_dos">En Tienda Sports Fire House encuentras toda la ropa deportiva para que puedas entrenar cómodo.</p>
+                    <div class="card mb-3 cards_fotos">
+                        <div class="row g-0">
+                            <div class="col-md-5">
+                                <img src="img/foto 3.jpg" id="imagen_destacada_dos" alt="#foto marca tienda">
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card-body">
+                                    <p class="card-text">En Tienda Sports Fire House encuentras toda la ropa deportiva para que puedas entrenar cómodo.</p>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
                 </div>
             </div>
             <article class="imagenes">
@@ -91,11 +95,6 @@
                             <span class="visually-hidden">Next</span>
                         </button>
                   </div>
-                <!--<div class="carousel">
-                    <img src="img/foto cuatro.jpg" id="carousel_uno">
-                    <img src="img/foto cinco.jpg" id="carousel_dos">
-                    <img src="img/foto.jpg" id="carousel_tres">
-                </div>-->
             </article>
         </div>
     </main>

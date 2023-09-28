@@ -12,50 +12,10 @@ body{
 header{
     width: 100%;
 }
-/*
-header nav ul{
-    list-style: none !important;
-    display: flex;
-    flex-direction: row;
-    padding-left: 10px !important;
-}
-
-li{
-    display: flex;
-    justify-content: space-between;
-}
-
-a{
-    color: rgb(0, 0, 0) !important;
-    text-decoration: none !important;
-    width: 100px;
-    border-radius: 5px;
-}
-
-a:hover{
-    color: rgb(233, 227, 227) !important; 
-    background-color: rgba(236, 229, 229, 0.267);
-}
-
-nav{
-    background-color: black;
-}
-
-.navegacion{
-    display: flex;
-    flex-direction: row;
-    padding-left: 10px !important;
-
-}
-*/
 
 .container-fluid{
     display: flex;
     justify-content: space-between;
-}
-
-.navbar-collapse{
-    margin-left: 600px;
 }
 
 main{
@@ -72,17 +32,26 @@ main{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    position: relative;
-    width: 100%;
+    margin-left: 50px;
 }
 
 .ropa_destacada_uno{
     display: flex;
     flex-direction: row;
-    background-color: rgb(255, 255, 255);
-    height: 300px;
-    width: 750px;
+    flex-wrap: wrap;
     margin-bottom: 20px;
+}
+.ropa_destacada_uno_foto{
+    width: 400px !important;
+    height: 300px !important;
+}
+.ropa_destacada_uno_texto{
+    width: 340px !important;
+}
+
+.cards_fotos{
+    width: 700px;
+    border-radius: 10px !important;
 }
 
 .texto_destacado_uno{
@@ -96,19 +65,16 @@ main{
 .ropa_destacada_dos{
     display: flex;
     flex-direction: row;
-    background-color: rgb(255, 255, 255);
-    height: 300px;
-    width: 750px;
-    margin-bottom: 20px;
+    flex-wrap: wrap;
 }
 
 #imagen_destacada_uno{
-    width: 600px !important;
+    width: 350px !important;
     height: 300px !important;
 }
 
 #imagen_destacada_dos{
-    width: 600px !important;
+    width: 350px !important;
     height: 300px !important;
 }
 
@@ -125,8 +91,6 @@ main{
     flex-direction: column;
     justify-content: center;
     margin-right: 100px;
-    margin-top: 80px;
-    margin-left: 60px;
 }
 
 #carousel_uno{
@@ -142,8 +106,9 @@ main{
 }
 
 .imagenes{
-    width: 900px;
-    margin-top: 90px;
+    width: 800px;
+    height: 600px;
+    padding-right: 80px;
 }
 
 #imagen_logo{
@@ -162,6 +127,7 @@ main{
     width: 380px;
     height: 600px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -176,6 +142,7 @@ main{
     width: 380px;
     height: 600px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -189,6 +156,7 @@ main{
     width: 380px;
     height: 600px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -202,6 +170,7 @@ main{
     width: 380px;
     height: 600px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -234,6 +203,7 @@ main{
 
 .navegacion_ropa{
     margin-top: 170px !important;
+    margin-bottom: 90px;
 }
 
 .list_ropa{
@@ -260,4 +230,6 @@ footer{
     position: fixed;
     text-align: center;
     font-size: 15px;
+    color: white;
 }
+
